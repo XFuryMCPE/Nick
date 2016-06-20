@@ -1,0 +1,8 @@
+name: Nick
+main: Nick\Main
+author: BoyIsDino
+api: [2.0.0]
+version: 1.0
+commands:
+    nick:
+       description: "Sets sender a nickname"
