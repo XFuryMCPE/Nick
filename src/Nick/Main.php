@@ -21,7 +21,7 @@ class Main extends PluginBase implements Listener {
                        if($args[0] == "set"){
                     $sender->sendMessage(TF::BOLD . TF::ITALIC . TF::BLUE . "Your nick has now been set to " . TF::RED . $args[0]);
                 if($sender instanceof Player){         
-      $sender->setNameTag(TF::BOLD. TF::BLUE . $args[0] . TF::GOLD . $sender->getHealth() . TF::GREEN . "/" . TF::GOLD . $sender->getMaxHealth());
+      $sender->setNameTag(TF::BOLD. TF::BLUE . $args[0]);
              if($args[0] == null){
                $sender->sendMessage(TF::RED . "Invalid Nick!");
                }
