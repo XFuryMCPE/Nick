@@ -1,8 +1,14 @@
 name: Nick
 main: Nick\Main
-author: BoyIsDino
+authors: [BoyIsDino,XFuryMCPE]
 api: [2.0.0]
-version: 1.0
+version: 1.0.1
 commands:
-    nick:
-       description: "Sets sender a nickname"
+ nick:
+  description: Gives the sender a Nickname
+  permission: nick
+
+permissions:
+ nick:
+  description: Permission to allow setting nicknames
+  default: op
